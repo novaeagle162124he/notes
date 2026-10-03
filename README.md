@@ -1,14 +1,13 @@
 # notes
 
-A small, evolving collection of personal notes, references, and things I want to remember.
+A small, personal collection of things I want to remember.
 
 ## Features
 
-- Markdown files that work anywhere
-- Organized by topic for quick browsing
-- Searchable with standard command-line tools
-- No build step, database, or special app required
-- Easy to sync, fork, and adapt
+- Markdown notes that work in any text editor
+- Simple folders for keeping topics organized
+- Git history for tracking changes
+- No accounts, database, or build step
 
 ## Install
 
@@ -19,16 +18,10 @@ cd notes
 
 ## Usage
 
-Open any note in your preferred editor:
+Open the folder in your preferred editor, then add or update Markdown files.
 
 ```bash
 code .
+git add .
+git commit -m "Update notes"
 ```
-
-Search the collection from the terminal:
-
-```bash
-grep -Rni "search term" .
-```
-
-Add a new topic by creating a Markdown file, then commit it when it is worth keeping.
