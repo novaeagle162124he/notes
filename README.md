@@ -1,27 +1,23 @@
 # notes
 
-A small, personal collection of things I want to remember.
+A small collection of Python utilities for everyday development tasks.
 
 ## Features
 
-- Markdown notes that work in any text editor
-- Simple folders for keeping topics organized
-- Git history for tracking changes
-- No accounts, database, or build step
+- Clean, dependency-free helpers
+- Type hints and docstrings
+- Simple command line entry points
+- Works on Python 3.9+
 
 ## Install
 
-```bash
-git clone https://github.com/your-username/notes.git
-cd notes
-```
+    pip install -r requirements.txt
 
 ## Usage
 
-Open the folder in your preferred editor, then add or update Markdown files.
+    from utils import slugify, chunk
+    print(slugify('Hello World'))
 
-```bash
-code .
-git add .
-git commit -m "Update notes"
-```
+## License
+
+MIT
